@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+
+    <div class="main">
+        <div class="cell1">
+         <input  class="screen" placeholder="0" readonly type="text" name="text" id="inp">
+        </div>
+        <div class="cell2">
+            <div class="button space">
+                <button class="btn1 top-btn" onclick="clr()"> AC</button>
+                <button class="btn1 top-btn" onclick="clrSingle()"> C </button>
+                <button class="btn1 top-btn" onclick="press('%')"> % </button>
+                <button class="btn1 right-btn" onclick="press('/')"> / </button>
+            </div>
+            <div class="button">
+                <button class="btn1" onclick="press(7)"> 7 </button>
+                <button class="btn1" onclick="press(8)"> 8 </button>
+                <button class="btn1" onclick="press(9)"> 9 </button>
+                <button class="btn1 right-btn" onclick="press('*')"> x </button>
+            </div>
+            <div class="button">
+                <button class="btn1" onclick="press(4)"> 4 </button>
+                <button class="btn1" onclick="press(5)"> 5 </button>
+                <button class="btn1" onclick="press(6)"> 6 </button>
+                <button class="btn1 right-btn" onclick="press('-')"> - </button>
+            </div>
+            <div class="button">
+                <button class="btn1" onclick="press(1)"> 1 </button>
+                <button class="btn1" onclick="press(2)"> 2 </button>
+                <button class="btn1" onclick="press(3)"> 3 </button>
+                <button class="btn1 right-btn" onclick="press('+')"> + </button>
+            </div>
+            <div class="button space2">
+                <button class="btn1" onclick="press(0)"> 0 </button>
+                <button class="btn1" onclick="press('00')"> 00</button>
+                <button class="btn1" onclick="press('.')"> . </button>
+                <button class="btn1 right-btn" onclick="eq()"> = </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

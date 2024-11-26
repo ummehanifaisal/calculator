@@ -1,0 +1,125 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s;
+}  
+
+.main{
+    background-attachment: fixed;
+    background-color: black;
+    width: 345px;
+    margin: 10% 35% 0%;
+    border: solid 2px;
+    border-radius: 10px;
+    /* align-content: center;
+    align-items: center;
+    border: solid 1px;
+     */
+}
+
+/* .container{
+  
+    background-color: black;
+    padding: 15px;
+    /* display: inline-block; */
+    /* position:absolute;
+    border: solid rgb(0, 0, 0) ;
+    border-radius: 20px;
+    margin-left: ; */
+    /* margin: 50px 450px; */
+
+
+.button{
+    margin: 7px;
+}
+
+.btn1{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    margin: 0 4px;
+    border: none;
+    background-color: #2f2f2f;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.right-btn{
+  
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    margin: 0 4px;
+    border: none;
+    background-color: #ee9406;
+    color: white;
+    font-weight:bolder;
+    font-size: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.right-btn:hover{
+    background-color: #bb7a11 !important;
+    cursor: pointer;
+}
+
+.top-btn{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    margin: 0 4px;;
+    border: none;
+    background-color: #9a9a9a;
+    color: black;
+    font-weight:bolder;
+    font-size: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+
+.top-btn:hover{
+    background-color: #575353 !important;
+    cursor: pointer;
+    color: white;
+}
+
+.btn1:hover{
+    background-color: #1b1919;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.screen{
+    height: 60px;
+    width: 320px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    border-radius: 6px;
+    border: solid 2px;
+    /* background-color: transparent; */
+}
+
+.cell1{
+    background-color:#1b1b1b;
+}
+
+.cell2{
+    background-color: black;
+}
+
+.space{
+    padding-top: 10px;
+}
+
+.space2{
+    padding-bottom: 20px;
+}
